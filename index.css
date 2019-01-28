@@ -3,13 +3,13 @@ body {
     margin:0;
     padding:0;
     float: left;
-    background-image: url('background2.jpg')
+    background-image: url('assets/background2.jpg')
 }
  
 .header{
     font-size: 30px;
     text-align: center;
-    background-image: url('background2.jpg');
+    background-image: url('assets/background2.jpg');
     background-size: cover;
     color: #FAF0E6;
 }
