@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding:0;
+    float: left;
+    background-image: url('background2.jpg')
+}
+ 
+.header{
+    font-size: 30px;
+    text-align: center;
+    background-image: url('background2.jpg');
+    background-size: cover;
+    color: #FAF0E6;
+}
+
+.portrait {
+    border-radius: 70%;
+    width: 15%
+}
+
+header ul li {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+header ul li img{
+    width: 20px;
+}
+
+.content{
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,1);
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,1);
+    background-color: #FAF0E6  ;
+    width: 70%;
+    margin: auto;
+}
+.section {
+    width: 70%;
+    margin: auto
+}
+#lang, #os{
+    list-style-type: none;
+}
+
+ .bold {
+    font-weight: bold;
+ }
+
+ .italic {
+     font-style: italic;
+ }
