@@ -23,12 +23,10 @@ document.querySelector('#newitem').addEventListener('keypress', function(e){
     }
 })
 
-var items = document.querySelector("ul").getElementsByTagName("li");
-
+var items = document.getElementsByName("todo");
 for (var i = 0; i < items.length; i++) {
-    items[i].addEventListener( 'click', function() {
-
-        this.classList.toggle('done');
+    items[i].addEventListener( 'change', function() {
+        this.parentNode.classList.toggle('done');
 
     });
   }
